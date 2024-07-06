@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMPERIAL MUGHALIA COUTURE-HOME</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+</head>
+<body class="bg-success">
+    <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+
+  <nav class="navbar navbar-expand-sm bg-light navbar-light sticky-top">
+      <div class="container bg-white text-success">
+          <div class="col-sm-2">
+              <a href="#" class="navbar-brand"><img src="image/logo.png" class="rounded img-fluid" alt="Shop Logo" height="120px" width="120px"></a>
+          </div>
+          <div class="col-sm-8">
+              <button class="navbar-toggler bg-success" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav nav nav-tabs nav-justified bg-success" style="width: 100%;">
+          <li class="nav-item"><a href="index.html" class="nav-link text-white">HOME</a></li>
+          <li class="nav-item"><a href="categories.html" class="nav-link text-white">CATEGORIES</a></li>
+          <li class="nav-item"><a href="rating.html" class="nav-link active text-success">RATING</a></li>
+          <li class="nav-item"><a href="order.html" class="nav-link text-white">ORDER</a></li>
+      </ul>
+  </div>
+              
+          </div>
+          <div class="col-sm-2">
+              <a href="#" class="navbar-brand"><img src="image/palestine.png" class="rounded img-fluid float-end" alt="Free Palestine Logo" height="120px" width="120px"></a>
+          </div>
+      </div>        
+  </nav>
+                
+            
+    
+    <div class="container mt-5">
+        <h2 class="mb-4">Rate Our Shop</h2>
+        <div class="mb-3">
+          <p>Your Rating: <span id="currentRating">0</span></p>
+          <div id="ratingStars">
+            <span class="star" data-value="1"><i class="fas fa-star"></i></span>
+            <span class="star" data-value="2"><i class="fas fa-star"></i></span>
+            <span class="star" data-value="3"><i class="fas fa-star"></i></span>
+            <span class="star" data-value="4"><i class="fas fa-star"></i></span>
+            <span class="star" data-value="5"><i class="fas fa-star"></i></span>
+          </div>
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" rows="3" placeholder="Provide feedback (optional)"></textarea>
+        </div>
+        <button class="btn btn-light text-success">Submit Rating</button>
+      </div> <br>
+      
+      
+      <!-- Optional: Font Awesome JS (Only if you use icons like stars from Font Awesome) -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+      
+      <!-- Your custom JavaScript for rating functionality (if needed) -->
+      <script>
+        // Example JavaScript code for handling rating clicks
+        document.querySelectorAll('.star').forEach(item => {
+          item.addEventListener('click', event => {
+            const ratingValue = item.getAttribute('data-value');
+            document.getElementById('currentRating').textContent = ratingValue;
+            // Additional logic to handle rating selection
+          });
+        });
+      </script>
+
+<footer>
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <div class="container bg-white text-success justify-content-center">
+            <div class="row">
+                <div class="col-sm-3">
+                    <a href="#" class="navbar-brand"><img src="image/fb-icon.png" class="rounded" alt="fb icon" height="100px"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="#" class="navbar-brand"><img src="image/email-icon.png" class="rounded" alt="email icon" height="100px"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="#" class="navbar-brand"><img src="image/whatsapp-icon.png" class="rounded" alt="whatsapp icon" height="100px"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="#" class="navbar-brand"><img src="image/phone-icon.png" class="rounded" alt="phone icon" height="100px"></a>
+                </div>
+            </div>
+        </div>        
+    </nav>
+</footer>
+</body>
+</html>

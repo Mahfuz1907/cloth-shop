@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMPERIAL MUGHALIA COUTURE-HOME</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+</head>
+<body>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+
+  <nav class="navbar navbar-expand-sm bg-light navbar-light sticky-top">
+      <div class="container bg-white text-success">
+          <div class="col-sm-2">
+              <a href="#" class="navbar-brand"><img src="image/logo.png" class="rounded img-fluid" alt="Shop Logo" height="120px" width="120px"></a>
+          </div>
+          <div class="col-sm-8">
+              <button class="navbar-toggler bg-success" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav nav nav-tabs nav-justified bg-success" style="width: 100%;">
+          <li class="nav-item"><a href="index.html" class="nav-link text-white">HOME</a></li>
+          <li class="nav-item"><a href="categories.html" class="nav-link text-white">CATEGORIES</a></li>
+          <li class="nav-item"><a href="rating.html" class="nav-link text-white">RATING</a></li>
+          <li class="nav-item"><a href="order.html" class="nav-link active text-success">ORDER</a></li>
+      </ul>
+  </div>
+              
+          </div>
+          <div class="col-sm-2">
+              <a href="#" class="navbar-brand"><img src="image/palestine.png" class="rounded img-fluid float-end" alt="Free Palestine Logo" height="120px" width="120px"></a>
+          </div>
+      </div>        
+  </nav>
+                
+            
+    
+        <section class="text-center container mt-3"> 
+            <form action="" method="POST">
+               <fieldset>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-floating mb-3 mt-3">
+                            <input type="text" id="name" name="name" placeholder="MD. Mahfuzul Alam" class="form-control" required>
+                            <label for="name" class="form-label">Enter your name: </label>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-floating mb-3 mt-3">
+                            <input type="text" id="name" name="user_name" placeholder="mahfuz1907" class="form-control" required>
+                            <label for="name" class="form-label">Enter your user name: </label>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-floating mb-3 mt-3">
+                            <input type="email" id="email" name="email" placeholder="xyz@...com" class="form-control" required>
+                            <label for="email" class="form-label">Enter your email id: </label>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-floating mb-3 mt-3">
+                            <input type="tel" id="tel" name="tel" placeholder="01........." class="form-control" required>
+                            <label for="phone" class="form-label">Enter your phone no: </label>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-floating mb-3 mt-3">
+                            <input type="text" id="productCode" name="productCode" placeholder="001" class="form-control" required>
+                            <label for="productCode" class="form-label">Product Code:</label>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-floating mb-3 mt-3">
+                            <input type="number" id="number" name="number" placeholder="1" class="form-control" required>
+                            <label for="number" class="form-label">How many of this item you want to purchase? </label>
+                        </div>
+                    </div>
+                </div>
+                </fieldset>
+                <fieldset>
+                    <div class="form-floating mb-3 mt-3">
+                        <textarea class="form-control" rows="5" id="address" name="text"></textarea>
+                        <label for="address">Address for Delivery:</label>
+                    </div>     
+               </fieldset>
+
+
+
+
+
+
+
+
+               <fieldset>
+                <p>How you want to pay?</p>
+                <div class="row justify-content-center">
+                    <div class="col-sm-2">
+                        <div class="form-check">
+                            <label for="bkash" class="form-check-label">
+                                <input type="radio" id="bkash" name="payment" value="bkash" class="form-check-input">
+                                <img src="image/bkash.png" alt="bkash" width="100px" height="100px">
+                            </label>
+                            </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="form-check">
+                            <label for="nagad" class="form-check-label">
+                                <input type="radio" id="nagad" name="payment" value="nagad" class="form-check-input">
+                            <img src="image/nagad.png" alt="nagad" width="100px" height="100px">
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="form-check">
+                            <label for="cod" class="form-check-label">
+                                <input type="radio" id="cod" name="payment" value="cod" class="form-check-input">
+                            <img src="image/cod.png" alt="cod" width="100px" height="100px">
+                            </label>
+                            </div>
+                    </div>
+                </div>
+                </fieldset>
+               <fieldset>
+                <button type="submit" class="btn btn-success">Place Your Order</button>
+                <button type="reset" class="btn btn-success">Reset</button>
+               </fieldset>
+            </form>
+        </section>
+
+        <footer>
+            <nav class="navbar navbar-expand-sm bg-light navbar-light">
+                <div class="container bg-white text-success justify-content-center">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <a href="#" class="navbar-brand"><img src="image/fb-icon.png" class="rounded" alt="fb icon" height="100px"></a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="#" class="navbar-brand"><img src="image/email-icon.png" class="rounded" alt="email icon" height="100px"></a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="#" class="navbar-brand"><img src="image/whatsapp-icon.png" class="rounded" alt="whatsapp icon" height="100px"></a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="#" class="navbar-brand"><img src="image/phone-icon.png" class="rounded" alt="phone icon" height="100px"></a>
+                        </div>
+                    </div>
+                </div>        
+            </nav>
+        </footer>
+</body>
+</html>
